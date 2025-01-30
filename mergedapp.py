@@ -13,7 +13,7 @@ from flask_mail import Mail, Message
 from werkzeug.utils import secure_filename
 from functools import wraps
 
-
+print('Venkateswarlu Git Access Check')
 # Dynamically determine the database path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATABASE = os.path.join(BASE_DIR, 'instance', 'HiFieats.db')
